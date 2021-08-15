@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pri-back: rgb(214, 224, 247);
+    --pur-blue: rgb(94, 0, 156);
+    --pur-back: rgb(188, 160, 190);
+}
+.light-blue{
+    background-color: var(--pri-back);
+    border-radius: 4rem;
+    padding: 0.5rem;
+}
+.light-blue-big{
+    background-color: var(--pri-back);
+    border-radius: 4rem;
+    padding: 1rem;
+}
+.blue-back{
+    background-color: var(--pri-back);
+}
+.light-purp-back{
+    background-color: var(--pur-back);
+}
+.purple-back{
+    background-color: var(--pur-blue);
+}
+.purple-text{
+    color: var(--pur-blue);
+}
+.padding-y{
+    padding: 0 80px;
+}
+.height{
+    line-height: 0.75rem;
+}
+.height-inc{
+    line-height: 2rem;
+}
+.clips{
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.two-clips{
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.google{
+    font-family: 'Noto Sans', sans-serif;
+}
+.dribbble{
+    font-family: 'Style Script', cursive;
+}
+.instagram{
+    font-family: 'Lobster Two', cursive;
+}
+.mail-chimp{
+    font-family: 'Pacifico', cursive;
+}
+.pinterest{
+    font-family: 'Pattaya', sans-serif;
+}
+.product-hunt{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    z-index: 2;
+}
